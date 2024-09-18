@@ -8,7 +8,7 @@ import { WorksModule } from './works/works.module';
     ConfigModule.forRoot({
       isGlobal: true,
     }),
-    MongooseModule.forRoot('mongodb+srv://mihaialex989:b0nkVGz1xqTdfsR7@cluster0.pfwfq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'), // Conexiune la MongoDB
+    MongooseModule.forRoot('mongodb+srv://mihaialex989:<password>@cluster0.pfwfq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'), // Conexiune la MongoDB
     WorksModule,
   ],
   controllers: [],
